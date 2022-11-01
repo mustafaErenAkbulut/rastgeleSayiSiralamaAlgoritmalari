@@ -1,0 +1,27 @@
+					Algoritma Hız Yorumu
+
+
+4 - Bubble Sort =
+
+Bence en yavaş sıralama algoritması baloncuk sıralaması. Çok basit bir yapıya sahip ve büyük sayılarla uğraşamıyor. 
+Sadece yan yana bulunan iki eleman arasında sıralama yapıp tüm diziyi baştan sona sürekli döndüğü için bence en yavaşı budur.
+
+3- Selection Sort =
+
+Yine basit bi algoritma olmasına karşın Bubble dan daha iyi olduğunu düşünüyorum. Çünkü dizinin ilk elemanını en küçük olduğunu varsaydıktan sonra tüm diziyi
+dolaşıyor Bubble gibi sadece 2 li 2 li işlemine devam etmiyor. Bence sıralama algoritmalarında hızı etkileyen faktör ne kadar fazla sayıla bi anda işlem 
+yapabapilmesi.
+
+2- Insertion Sort =
+
+Sokarak (Yerleştirerek) yapılan sıralamayı 2. sıraya koyuyorum (Hızlılık açısından) yazılımına baktığımızda Quick ve Selection kadar sade ama onlar ile
+karşılaştırıldığında kat ve kat daha hızlı. Ben olsam bunu en verimli olarak seçerdim hem yazımı kolay hem hızı iyi ama tabi araştırdığımda en hızlının 
+adı gibi Quick Sort olduğunu öğrendim. Insertion Sort Yerleştirerek sıralama dizinin belirli bir kısmını sıralı tutarak ve bu kısmı 
+her adımda biraz daha genişleterek çalışmaktadır. Selectionda bahsettiğim gibi bence hızlılık yine geniş bi alanda genişleterek çalışmasından geliyor.
+
+1- Quick Sort =
+
+Araştırdıktan sonra en gözde ve en hızlı algoritma olduğunu öğrendim. Yazılışı yukarıdakilere kıyasla daha komplike ve sırlaması daha hızlı.
+Diziden herhangi bir elemanı pivot olarak seçiyor pivottan küçük olanları bir diziye büyük olanları bir diziye topluyor. Alt dizilerden de
+pivot elemanları seçip aynı işlemi uyguluyor. Bir nevi böl parçala yönet işlemi. En son sıraladığı dizicikleri birleştiriyor. Yine benim anladığım kadarıyla
+böl parçala yönet işlemi yaparak yani asla Bubble kadar sadece 2 sayıyla uğraşacak kadar sade değil adeta tüm diziye hakim oluyor ve bunu hızlı yapan da bu.
